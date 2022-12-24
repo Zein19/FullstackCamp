@@ -1,0 +1,38 @@
+body{
+    background-color: honeydew;
+}
+
+h1{
+    font-style: oblique;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: brown;
+    text-align: center;
+}
+
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: chocolate;
+}
+
+li{
+    font-family: sans-serif;
+}
+
+img{
+    align-content: center;
+}
+
+#title{
+    background-color: aliceblue;
+}
+
+#ingredients{
+    background-color: azure;
+}
+
+#procedure{
+    background-color: cornsilk;
+}
+
+
+
