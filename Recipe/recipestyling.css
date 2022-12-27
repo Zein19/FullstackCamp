@@ -18,20 +18,24 @@ li{
     font-family: sans-serif;
 }
 
-img{
-    align-content: center;
-}
-
 #title{
     background-color: aliceblue;
 }
 
 #ingredients{
+    border-color: black;
+    border:1px solid;
     background-color: azure;
+    margin: auto;
+    width: 75%;
 }
 
 #procedure{
     background-color: cornsilk;
+    margin: auto;
+    width: 90%;
+    border-color: black;
+    border:1px solid;
 }
 
 
