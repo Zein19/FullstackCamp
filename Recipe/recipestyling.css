@@ -18,8 +18,9 @@ li{
     font-family: sans-serif;
 }
 
-#title{
-    background-color: aliceblue;
+#title h1{
+        border-bottom: 1px solid black;
+    
 }
 
 #ingredients{
@@ -27,16 +28,51 @@ li{
     border:1px solid;
     background-color: azure;
     margin: auto;
-    width: 75%;
+    width: 80%;
+}
+
+#utensils{
+    border-color: black;
+    border:1px solid;
+    background-color: aquamarine;
+    margin: auto;
+    width: 80%;
 }
 
 #procedure{
     background-color: cornsilk;
     margin: auto;
-    width: 90%;
+    width: 80%;
     border-color: black;
     border:1px solid;
 }
 
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+#nav{
+    list-style-type: none;
+    display: flex;
+    background-color: gainsboro;
+    margin: auto;
+    width: 80%;
+}
 
+#nav li{
+        display: block;
+        padding: 10px 15px;
+        border: solid black;
+        background-color: turquoise;
+        border-radius: 100px;
+        margin-left: auto;
+        margin-right: auto;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
