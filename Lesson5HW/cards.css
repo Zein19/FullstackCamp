@@ -1,0 +1,71 @@
+body{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+#nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#nav li{
+    list-style: none;
+    padding: 10px;
+}
+
+#nav li:hover{
+    text-decoration-line:solid black;
+    background-color: yellow;
+}
+
+em{
+    font-style: normal;
+    color: orange;
+}
+
+#title{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 1px;
+    margin: 0;
+}
+
+#flexcontainer{
+    background-color: orange;
+    text-align: center;
+    margin: 0;
+}
+
+
+
+img{
+    width: 200px
+}
+
+#content{
+    margin-left: 70px;
+    margin-right: 70px;
+    border: solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+
+
+#footer{
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+#footer li{
+    list-style: none;
+}
+
+
+
