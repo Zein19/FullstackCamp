@@ -1,0 +1,42 @@
+body{
+    background-image: url(jeremy-bishop-G9i_plbfDgk-unsplash.jpg)
+}
+
+.landing{
+    margin: auto;
+    text-align: center;
+    width: 40%;
+    padding: 10em;
+    color: white;
+    font-family: Montserrat, sans-serif;
+
+}
+
+.landing h1{
+    animation: fadeIn1 2s;
+}
+
+@keyframes fadeIn1 {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    color: white;
+}
+
+
+li a{
+    text-decoration: none;
+    color: white;
+    animation: fadein2 5s;
+}
+
+@keyframes fadein2 {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
