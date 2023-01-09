@@ -34,13 +34,21 @@ p{
 
 }
 
+#home p{
+    width: 50%;
+}
+
 #content{
-    margin-right: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#content p{
+    width: 50%;
 }
 
 img{
     display: block;
-    width: 40%;
-    height: auto;
-    float: left;
+    width: 200px;   
+    height: 310px;
 }
