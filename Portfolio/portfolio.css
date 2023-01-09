@@ -1,5 +1,7 @@
 body{
-    background-image: url(jeremy-bishop-G9i_plbfDgk-unsplash.jpg)
+    background-image: url(jeremy-bishop-G9i_plbfDgk-unsplash.jpg);
+    color: white;
+    font-family: Montserrat, sans-serif;
 }
 
 .landing{
@@ -39,4 +41,16 @@ li a{
     0% { opacity: 0; }
     100% { opacity: 1; }
   }
+
+a :hover{
+    border-bottom: 1px solid white;
+}
+
+#heading{
+    margin-left: 15%;
+}
+
+.flex-container{
+    display: flex;
+}
 
