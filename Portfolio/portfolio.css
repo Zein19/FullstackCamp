@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
     
 
@@ -59,17 +60,59 @@ ul{
 
 #heading{
     margin-left: 15%;
+    margin-top: 1em;
+    text-decoration: underline;
 }
 
 .flex-container{
     display: flex;
     margin-left: 2%;
+    margin-top: 1em;
 }
 
 .content{
     width: 70%;
+    padding: 1em;
 }
 
-img{
-    width: 20em;
+.content img{
+    width: 10em;
+    padding: 1em;
+}
+
+
+
+.heading{
+   border-bottom: 1px solid white;
+}
+
+.image{
+    width: 30%
+}
+
+.image img{
+    width: 18em;
+    
+}
+
+#heading-contact{
+    margin-top: 1.5em;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2rem;
+}
+
+.contacts-container{
+    display: flex;
+    border: solid 1px red;
+    justify-content: center;
+}
+
+.contact-icon{
+    width: 10em;
+    opacity: 0.5;
+}
+
+.contact-icon :hover{
+    opacity: 1;
 }
