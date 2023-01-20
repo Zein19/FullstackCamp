@@ -90,6 +90,10 @@ ul{
     width: 30%
 }
 
+.image img:hover{
+    opacity: .5;
+}
+
 .image img{
     width: 18em;
     
@@ -104,15 +108,17 @@ ul{
 
 .contacts-container{
     display: flex;
-    border: solid 1px red;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .contact-icon{
     width: 10em;
-    opacity: 0.5;
 }
 
 .contact-icon :hover{
-    opacity: 1;
+    opacity: 0.5;
+}
+
+.contact-icon + .contact-icon{
+    margin-left: 1em;
 }
