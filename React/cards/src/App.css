@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: darkgreen;
+}
+
+.App{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.cards {
+  border: solid 1px black;
+  border-radius: 10px;
+  background-color: darkblue;
+  color: gold;
+  text-align: center;
+  padding: 1em;
+  margin: 1em;
+}
