@@ -45,3 +45,7 @@ header > h2{
 span{
   font-weight: bold;
 }
+
+.logo{
+  width: 100%;
+}
