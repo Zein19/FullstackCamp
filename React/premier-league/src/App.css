@@ -21,3 +21,27 @@ header > h2{
   font-size: 3rem;
   color: #3C175A;
 }
+
+.flex{
+  display: flex;
+  border: solid 3px green;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card{
+  width: 10em;
+  margin: 0.5em 1.6em;
+  border: #3C175A solid 2px;
+  border-radius: 10px;
+  padding: 1em;
+  font-size: 0.8rem;
+}
+
+.card-title{
+  font-size: 0.9rem
+}
+
+span{
+  font-weight: bold;
+}
